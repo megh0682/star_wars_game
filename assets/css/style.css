@@ -1,0 +1,66 @@
+body{
+  font-family:orbitron;
+  color : #fff;
+  background-image:url("http://www.welt.de/star-wars/images/hintergrund-sterne_2080x1100_2.png");
+}
+#playerArea{
+  visibility: hidden;
+}
+#defenderArea{
+  visibility: hidden;
+}
+#box-grid{
+  position: absolute;
+  bottom: 0;
+    left: 0;
+}
+.img-responsive{
+  height: 150px;
+  width: 75%;
+  position:relative;
+  display:block;
+  padding:0px;
+  margin: 0px;
+  color: black;
+  background-size: 300px 150px;
+  border:1px solid #39FF14;
+  border-bottom:none;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.col-sm-3{
+  position: relative;
+ } 
+.col-sm-3 .col {
+  position: absolute; 
+  z-index: 1;
+  top:0; 
+  left:0;
+  color:#fff;
+}
+.item-text{
+  background-color: #ba0be0;
+  color:#fff;
+  text-align:center;
+  margin:0;
+  padding:0;
+  height:50px;
+  border:1px solid #39FF14;
+  border-top:none;
+  box-sizing: border-box;
+}
+#playerAttackBtn{
+  background-color:#ba0be0;
+  color:#fff;
+  font-family:orbitron;
+  visibility:visible;
+  border:1px solid #39FF14;
+}
+

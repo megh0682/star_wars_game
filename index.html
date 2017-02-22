@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angry Birds Star Wars</title>
+   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Theme CSS-->   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+   <script type="text/javascript" src="assets/js/index.js"></script>
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+</head>
+<body>
+<div class="container text-center">    
+  <h3>Angry Birds Star Wars</h3><br>
+  <div class="row no-gutters" id="box-grid">
+    <div class="col-sm-3 character" name="luke" id="luke" data-hp="150" data-cap="30" data-bap="12" data-ap="20">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-H_qMWciI5Ww_K6Wr4hCST4tpSZ7Z-fg4NpXX0JG3i92QsqdCAA" class="img-responsive" style="width:100%" alt="Image">
+       <div class="row item-text">
+        <div class="col-sm-6 text-left">
+            <p>Luke Skywalker</p>
+        </div>
+         <div class="col-sm-6 text-left">
+            <p>150</p>
+        </div>
+       </div>
+    </div>
+       <div class="col-sm-3 character" name="vader" id="vader" data-hp="130" data-cap="40" data-bap="6" data-ap="50">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQo9M7sUF-BbuIXtHWsqZeIaRQqQwYuVCHuyOJjGxd_KchpuwqbTw" class="img-responsive" style="width:100%" alt="Image">
+      <div class="row item-text">
+        <div class="col-sm-6 text-left">
+            <p>Darth Vader</p>
+        </div>
+         <div class="col-sm-6 text-left">
+            <p>130</p>
+        </div>
+     </div>
+     </div>
+     <div class="col-sm-3 character" id="kenobi" name="kenobi" data-hp="100" data-cap="60" data-bap="6" data-ap="35">
+      <img src="http://cdn.mijngame.nl:8080/games/angry-birds-star-wars-de.jpg" class="img-responsive" style="width:100%" alt="Image">
+     <div class="row item-text">
+        <div class="col-sm-6 text-left">
+            <p>Obi Van Kenobi</p>
+        </div>
+         <div class="col-sm-6 text-left">
+            <p>100</p>
+        </div>
+     </div>
+     </div>
+       <div class="col-sm-3 character" name="yoda" "id="yoda" data-hp="180" data-cap="45" data-bap="24" data-ap="5">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ4dcfxWNN-2YeHrq2fa4IpaU0p37OA6F8cY1WXeRltNj3C7meLfA" class="img-responsive" style="width:100%" alt="Image">
+     <div class="row item-text">
+        <div class="col-sm-6 text-left">
+            <p>Angry Yoda</p>
+        </div>
+         <div class="col-sm-6 text-left">
+            <p>180</p>
+        </div>
+     </div>
+   </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">Your Character</div>
+    <div class="col-sm-3">Fight Section</div>
+    <div class="col-sm-3">Defender</div>
+    <div class="col-sm-3">Stats</div>
+</div>
+<div class="row">
+<div class="col-sm-3 character" name="" id="playerArea" data-hp="" data-cap="" data-bap="" data-ap="">
+  <img src="#" class="img-responsive" style="width:100%" alt="Image">
+   <div class="row item-text">
+    <div class="col-sm-6 text-left" id="playerName">
+        <p></p>
+    </div>
+     <div class="col-sm-6 text-left" id="playerHP">
+        <p></p>
+    </div>
+   </div>
+</div>
+<div class="col-sm-3 text-left" id = "playerAttack">
+    <button id = "playerAttackBtn" type="button" class="btn btn-primary btn-sm btn-block">Attack</button>
+</div>
+<div class="col-sm-3 character" name="" id="defenderArea" data-hp="" data-cap="">
+  <img src="#" class="img-responsive" style="width:100%" alt="Image">
+   <div class="row item-text">
+    <div class="col-sm-6 text-left" id="defenderName">
+        <p></p>
+    </div>
+     <div class="col-sm-6 text-left" id="defenderHP">
+        <p></p>
+    </div>
+   </div>
+</div>
+ <div class="col-sm-3" id = "playerStatsBrd"> 
+</div>
+</div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p></p>
+</footer>
+ 
+</body>
+</html>
