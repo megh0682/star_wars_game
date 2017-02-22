@@ -329,7 +329,7 @@ $("#playerAttackBtn").click(function(){
 
   if(player.isAlive() && defender.isAlive()){
     var defenderFunc = defender.attackInvoked(player);
-    defender.isAttacking = setInterval(defenderFunc,3000);
+    defender.isAttacking = setInterval(defenderFunc,6000);
     console.log("defender.isAttacking: " + defender.isAttacking);
   }
 
